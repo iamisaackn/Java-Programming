@@ -1,27 +1,29 @@
-class  Operator{
-//!(logical not) It negates the result of the evaluation
-System.out.println(!(3<10)); // True but note that (3>7) returns false
+class Operator {
+    public static void main(String[] args) {
+        // Logical NOT operator (!) returns the inverse of the boolean value of the condition
+        System.out.println(!(3<10)); // Evaluates to false because 3 is less than 10
 
-//bitwise exclusive OR
-System.out.println((0)^(1)); //if one or the other of the operands is true but not both
-// bitwise exclusive OR
-System.out.println((3>12)^(2>7));
-// bitwise inclusive OR
-System.out.println((3>2)|(2>7)) // either op1 or op2 is true, always evaluates op1 and op2
-// Bitwise Operator
-System.out.println((13>>2)); // 13=1101 in binary Shifts 2 bits to the right becomes 11 which is 3
-System.out.println((13>>>2)); // 13=1101 in binary Shifts 2 bits to the right becomes 11 which is 3
-System.out.println((78>>3)); // 78=1001110 in binary Shifts 3 bits to the right becomes 1001 which is 9 decimal
-System.out.println((13<<2)) // 13=1101 in binary Shifts 3 bits to the left becomes 1101000 which is....
-System.out.println((78<<3)) // 78=1001110 in binary Shifts 3 bits to the left becomes 1001110000 which is ............
+        // Bitwise XOR operator (^) returns true if exactly one of the operands is true
+        System.out.println((0)^(1)); // Evaluates to true because only one operand is true (1)
+        System.out.println((3>12)^(2>7)); // Evaluates to false because both conditions are false
 
-// postfix and prefix operators ++ and --
+        // Bitwise OR operator (|) returns true if at least one of the operands is true
+        System.out.println((3>2)|(2>7)); // Evaluates to true because the first condition is true (3>2)
 
-int c = 2, d = 6
+        // Right shift operator (>>) shifts the bits of the number to the right and fills 0 on voids left as a result
+        System.out.println((13>>2)); // 13 in binary is 1101, shifting right by 2 bits results in 11 which is 3 in decimal
+        System.out.println((78>>3)); // 78 in binary is 1001110, shifting right by 3 bits results in 1001 which is 9 in decimal
 
-System.out.println(c++); // this statement displays 2 then, only c incremented by 1 to 3.
-System.out.println(d++); // this statement displays 6 then, only d incremented by 1 to 7.
-System.out.println(++c); // this statement increments 1 to c then, only c is displayed
-Sytem.out.println(++d); // //this statement increments 1 to d then, only c is displayed
-}
+        // Left shift operator (<<) shifts the bits of the number to the left and fills 0 on voids right as a result
+        System.out.println((13<<2)); // 13 in binary is 1101, shifting left by 2 bits results in 110100 which is 52 in decimal
+        System.out.println((78<<3)); // 78 in binary is 1001110, shifting left by 3 bits results in 1001110000 which is 624 in decimal
+
+        // Postfix increment operator (c++) increments the value of c after the current expression is evaluated
+        int c = 2;
+        System.out.println(c++); // Displays 2, then increments c by 1 to 3
+
+        // Prefix increment operator (++d) increments the value of d before the current expression is evaluated
+        int d = 6;
+        System.out.println(++d); // Increments d by 1 to 7, then displays 7
+    }
 }

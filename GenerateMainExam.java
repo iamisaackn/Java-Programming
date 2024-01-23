@@ -1,1 +1,0 @@
-int marks = 13 + math.ceil(math.random()*57)
