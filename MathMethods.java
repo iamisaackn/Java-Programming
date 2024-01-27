@@ -62,5 +62,7 @@ public class MathMethods {
 
         System.out.println(Math.cbrt(m));
         System.out.println(Math.cbrt(x));
+
+        
     }
 }
