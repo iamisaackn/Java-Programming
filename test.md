@@ -1,5 +1,3 @@
-/* 
-
 // This class demonstrates the use of various methods in the Math class
 public class MathMethods {
     // The main method is the entry point of any Java application
@@ -29,38 +27,5 @@ public class MathMethods {
 
         // Math.max() returns the maximum of two numbers
         System.out.println(Math.max(m, x));
-    }
-}
-
-
-*/
-
-import java.util.Scanner;
-
-public class MathMethods {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter value x: ");
-        int x = sc.nextInt();
-
-        System.out.println("Enter value m: ");
-        int m = sc.nextInt();
-        int cat1 = 2 + (int)(Math.ceil(Math.random() * 8));
-
-        System.out.println(Math.max(m, x));
-        System.out.println(Math.min(m, x));
-
-        System.out.println(Math.pow(m, 2));
-        System.out.println(Math.pow(x, 2));
-
-        System.out.println(Math.sqrt(m));
-        System.out.println(Math.sqrt(x));
-
-        System.out.println(Math.pow(m, 3));
-        System.out.println(Math.pow(x, 3));
-
-        System.out.println(Math.cbrt(m));
-        System.out.println(Math.cbrt(x));
     }
 }
