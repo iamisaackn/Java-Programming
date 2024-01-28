@@ -93,10 +93,6 @@ public class MathExpression {
         Math.pow((t >>= 2), 3);
         System.out.println("Answer: " + t);
 
-        // System.out.println(Math.pow((x>>>=2),3)<=100))
-        int u = Math.pow((15 >>>= 2), 3) <= 100;
-        System.out.println("Answer: " + u);
-
 
 
     }
