@@ -10,6 +10,6 @@ public class MinimumFinder {
         n2 = 60;
 
         result = minimum(n1, n2);
-        System.out.println("The minimum number is" + result);
+        System.out.println("The minimum number is " + result);
     }
 }
