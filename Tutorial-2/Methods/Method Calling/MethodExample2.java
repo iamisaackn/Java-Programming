@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-public class MethodExample2{
-public static void main(String[] args) {
-int a = 11;
-int b = 6;
-int c = minFunction(a, b);// Calling the method
-System.out.println("Minimum Value = " + c);
-}
-/** returns the minimum of two numbers */
-public static int minFunction(int n1, int n2) {
-int min;
-if (n1 > n2)
-min = n2;
-else
-min = n1;
-return min;
-}
-=======
 public class MethodExample2 {
     public static void main(String[] args) {
         int a = 11; // Declare and initialize variable 'a'
@@ -44,5 +26,4 @@ public class MethodExample2 {
 
         return min; // Return the minimum value
     }
->>>>>>> 4f2accb72c96d82230602b3d0bee4457d7f9712d
 }
