@@ -1,6 +1,5 @@
-// class declaration
 public class Testarray5 {
- // main method declaration
+
  public static void main(String args[]) {
   
  // Create 2 matrices
@@ -12,11 +11,14 @@ public class Testarray5 {
 
  // adding and print addition of 2 matrices
   for (int i = 0; i < 2; i++) {
+
    for (int j = 0; j < 3; j++) {
    c[i][j] = a[i][j] + b[i][j];
    System.out.print(c[i][j]+" ");
    } // inner for loop
-  System.out.println(c[i][j] + " ");
+   
+   System.out.println();
   }// outer for loop
+
  } // main method End
 } // class End
