@@ -1,3 +1,5 @@
+public class MethodOverloading {
+
 // Q1
 public static int sum(int a, int b, int c, int d) {
 return a+b+c+d;
@@ -47,5 +49,5 @@ double s5 = sum(a, b, c); // Sum of Q5
 System.out.println("Sum of S5 is " + s5);
 
 } // main End
-
+} // Class End
 
