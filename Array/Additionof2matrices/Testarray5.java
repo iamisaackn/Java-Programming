@@ -1,3 +1,5 @@
+package Additionof2matrices;
+
 public class Testarray5 {
 
  public static void main(String args[]) {

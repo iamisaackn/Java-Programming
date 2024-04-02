@@ -1,3 +1,5 @@
+package MultipleDimensionalArray;
+
 public class Testarray3 {
  public static void main(String args[]){
 

@@ -1,3 +1,5 @@
+package SingleDimensionalArray;
+
 // Class
 public class Testarray {
 

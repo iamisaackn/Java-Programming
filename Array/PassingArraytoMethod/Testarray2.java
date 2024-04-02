@@ -1,3 +1,5 @@
+package PassingArraytoMethod;
+
 // Class declaration
 public class Testarray2 {
 
